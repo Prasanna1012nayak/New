@@ -1,0 +1,35 @@
+.container{
+    position: relative;;
+}
+.content
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    translate: 20px 20px;
+}
+.image-desktop{
+    display: none;
+}
+.image-mobile{
+    width: 100%;
+    display: block;
+}
+.btn{
+    height: 35px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: mediumaquamarine;
+    color: beige;
+    border: none;
+}
+@media  screen and (min-width:725px) {
+    .image-desktop{
+        display: block;
+    }
+    .image-mobile{
+        display: none;
+    }
+    
+}
+
